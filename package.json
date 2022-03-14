@@ -1,0 +1,47 @@
+{
+  "name": "@movizon/fsa-chunk-store",
+  "description": "File System Access API chunk store that is abstract-chunk-store compliant, with filesystem-like folder structure.",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/movizon/fsa-chunk-store.git"
+  },
+  "author": {
+    "name": "Richard T",
+    "email": "richard@movizon.org",
+    "url": "https://www.movizon.org"
+  },
+  "contributors": [
+    "Richard T <richard@movizon.org> (https://www.movizon.org)"
+  ],
+  "bugs": {
+    "url": "https://github.com/movizon/fsa-chunk-store/issues"
+  },
+  "homepage": "https://github.com/movizon/fsa-chunk-store",
+  "keywords": [
+    "abstract-chunk-store",
+    "chunk",
+    "webfs",
+    "file system access api",
+    "filesystem access",
+    "file system access",
+    "FileSystemHandle",
+    "FileSystemFileHandle",
+    "FileSystemDirectoryHandle",
+    "FileSystemWritableFileStream"
+  ],
+  "scripts": {
+    "test": "standard"
+  },
+  "dependencies": {
+    "idb-keyval": "^6.1.0"
+  },
+  "devDependencies": {
+    "abstract-chunk-store": "^1.5.0",
+    "standard": "*",
+    "tape": "^5.5.2"
+  }
+}
